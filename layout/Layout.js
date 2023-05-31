@@ -27,7 +27,7 @@ export default function Home({ children, pagina }) {
       <>
          <Head>
             <title>Café - {pagina}</title>
-            <meta name="description" content="Kiosco Cafetería" />
+            <meta name="description" content={`Kiosco Cafetería - Sección ${pagina}`} />
          </Head>
          <div className="md:flex">
             <aside className="md:w-4/12 xl:w-1/4 2xl:w-1/5">
