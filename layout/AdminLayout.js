@@ -8,7 +8,7 @@ export default function AdminLayout({ children, pagina }) {
     <>
       <Head>
         <title>Café - {pagina}</title>
-        <meta name="description" content="Quosco Cafetería" />
+        <meta name="description" content={`Kiosco Cafetería - Seccion ${pagina}`} />
       </Head>
 
       <div className="md:flex">
